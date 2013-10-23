@@ -1,0 +1,327 @@
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
+
+body {
+	
+	background-color: #383d43;
+	margin: 0 auto;
+}
+
+/* Top Nav */
+
+.container{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.navbar{
+background-color: #1e2329;
+padding: 15px;
+}
+
+.navbar p{
+float: left;
+}
+
+.navbar a {
+font-size:14px;
+color: #525961;
+margin: 0 0 0 10px;
+text-decoration: none;
+
+}
+
+.tel{
+	color:#bababa;
+	margin:0 0 0 218px;
+}
+
+.navbar ul{
+	text-decoration:none;
+	float: right;
+	margin:0 295px 0 0;
+}
+
+.navbar li {
+float: right;
+margin: 0 10px 0 0;
+font-weight: normal;
+
+}
+
+.navbar li a {
+	font-size:14px;
+	color: #ffffff;
+}
+.navbar .spacer {
+font-size:14px;
+color: #525961;
+margin:1px;
+
+}
+
+/* END TOP NAV */
+
+/* ______________________________________________ */
+
+
+/* Logo and Search */
+
+
+.logo{
+	padding: 10px;
+}
+
+.logo img{
+	float: left;
+}
+
+.logo form{
+	float: right;
+	margin: 8px 73px 0 0;
+}
+
+.accent-btn{
+	padding: 5px 15px;
+	color: #ffffff;
+	font-size:14px;
+	border: none;
+	background: #019add; /* Old browsers */
+	background: -moz-linear-gradient(top,  #019add 1%, #015cc6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#019add), color-stop(100%,#015cc6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #019add 1%,#015cc6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #019add 1%,#015cc6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019add', endColorstr='#015cc6',GradientType=0 ); /* IE6-9 */
+	
+}
+
+/* END Logo and Search */
+
+/* ______________________________________________ */
+
+
+/* SECONDARY NAVAGATION */
+
+
+.sec-nav{
+	width: 942px;
+	padding: 30px 0;
+	margin: -7px 0 0 0;
+	
+	background: #2b3036; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2b3036 1%, #1e2329 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#2b3036), color-stop(100%,#1e2329)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2b3036 1%,#1e2329 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2b3036 1%,#1e2329 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2b3036 1%,#1e2329 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2b3036 1%,#1e2329 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3036', endColorstr='#1e2329',GradientType=0 ); /* IE6-9 */
+	
+}
+
+
+.sec-nav ul{
+	text-decoration:none;
+	float: left;
+	margin: 0 120px 0 0;
+}
+
+.sec-nav li {
+float: right;
+margin: 0 10px 0 0;
+font-weight: normal;
+padding: 0 20px;
+margin: -12px 0 0 0;
+
+}
+
+.active-nav{
+	padding: 10px 20px;
+	background: #019add; /* Old browsers */
+	background: -moz-linear-gradient(top,  #019add 1%, #015cc6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#019add), color-stop(100%,#015cc6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #019add 1%,#015cc6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #019add 1%,#015cc6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019add', endColorstr='#015cc6',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.sec-nav li a {
+	font-size:14px;
+	color: #ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+
+}
+
+/* END SECONDARY NAVAGATION */
+
+/* ______________________________________________ */
+
+/* SECTION */
+
+.copy{
+	position:relative;
+	height:100%;
+	
+}
+
+section {
+	width: 620px;
+	float: left;
+}
+
+ .content{
+	background-color: #2f3338;
+	padding:40px 30px;
+}
+
+.alt{
+	background-color: #2a2d32;
+}
+
+.content img{
+	float: right;
+	
+}
+
+ .content p{
+	width: 340px;
+	color: #bcc4c7;
+	font-size:12px;
+	font-family: HelveticaNeue-light;
+	line-height: 150%;
+	padding: 0 0 20px 0;
+	
+}
+
+section h1{
+	font-size: 24px;
+	font-family: HelveticaNeue-light;
+	color: #ffffff;
+	margin: 0 0 20px 0;
+}
+
+section a{
+	font-size: 15px;
+	font-family: HelveticaNeue-light;
+	color: #65b8f9;
+	margin: 0 0 20px 0;
+	text-decoration:none;
+}
+
+/* END SECTION*/
+
+/* ______________________________________________ */
+
+/* ASIDE */
+
+aside {
+	background-color: #26292e;
+	min-width: 322px;
+	min-height:942px;
+	float:left;
+		
+}
+
+aside h1{
+	font-size: 17px;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: left;
+	margin: 20px;
+	
+	
+	background: #019add; /* Old browsers */
+	background: -moz-linear-gradient(top,  #019add 1%, #015cc6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#019add), color-stop(100%,#015cc6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #019add 1%,#015cc6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #019add 1%,#015cc6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #019add 1%,#015cc6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019add', endColorstr='#015cc6',GradientType=0 ); /* IE6-9 */
+
+		
+}
+
+aside p{
+	display: inline-block;
+	font-size: 14px;
+	color:#ffffff;
+	font-family: HelveticaNeue-light;
+	margin: 5px 30px;
+
+	
+			
+}
+
+aside p strong{	
+	color:#65b8f9;
+	font-family: HelveticaNeue-light;
+	font-weight: normal;
+	margin: 0px 10px 0px 0;
+	
+
+	
+			
+}
+
+#sponsor1 {
+	float: left;
+	margin: 0 0 0 30px;
+}
+#sponsor2 {
+	float: left;
+	margin: 0 0 0 10px;
+	
+}
+
+
+/* END CONTENT */
+
+/* ______________________________________________ */
+
+
+/* FOOTER */
+
+footer {
+	padding: 40px 0;
+}
+
+.add {
+	margin: 0 0 30px 0;
+}
+
+
+.nudge {
+	margin: 0 6px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
